@@ -119,6 +119,7 @@ public class StudentController {
 
 		// redirect to /students/list
 		return "redirect:/student/list";
+	}
 
 	@RequestMapping(value = "/403")
 	public ModelAndView accesssDenied(Principal user) {
